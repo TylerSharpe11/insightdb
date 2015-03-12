@@ -1,0 +1,8 @@
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\bin\Debug\CoderFoundry.InsightUserStore.DB.exe.config
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\bin\Debug\CoderFoundry.InsightUserStore.DB.exe
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\bin\Debug\CoderFoundry.InsightUserStore.DB.pdb
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\bin\Debug\Insight.Database.Schema.dll
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\bin\Debug\Insight.Database.Schema.pdb
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\obj\Debug\CoderFoundry.InsightUserStore.DB.exe
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\obj\Debug\CoderFoundry.InsightUserStore.DB.pdb
+C:\Users\ty\Desktop\InsightUserStore-master\src\CoderFoundry.InsightUserStore.DB\obj\Debug\CoderFoundry.InsightUserStore.DB.csprojResolveAssemblyReference.cache
