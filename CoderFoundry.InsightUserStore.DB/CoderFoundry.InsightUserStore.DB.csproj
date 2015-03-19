@@ -112,16 +112,14 @@
     <EmbeddedResource Include="Stored Procedures\GetTransactionById.sql" />
     <EmbeddedResource Include="Stored Procedures\GetTransactionsByAccountId.sql" />
     <EmbeddedResource Include="Stored Procedures\GetTransactionsByHousehold.sql" />
-    <EmbeddedResource Include="Stored Procedures\InsertAccount.sql" />
-    <EmbeddedResource Include="Stored Procedures\InsertBudgetItem.sql" />
-    <EmbeddedResource Include="Stored Procedures\InsertCategory.sql" />
-    <EmbeddedResource Include="Stored Procedures\InsertInvitation.sql" />
-    <EmbeddedResource Include="Stored Procedures\InsertTransaction.sql" />
     <EmbeddedResource Include="Tables\Accounts.sql" />
     <EmbeddedResource Include="Tables\BudgetItems.sql" />
     <EmbeddedResource Include="Tables\Categories.sql" />
     <EmbeddedResource Include="Tables\Invitations.sql" />
     <EmbeddedResource Include="Tables\Transactions.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Stored Procedures\GetUsersByHousehold.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

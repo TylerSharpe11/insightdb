@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [Security].[Roles](
-	[Id] [int] NOT NULL,
+	[Id] [int] IDENTITY(1,1)  NOT NULL,
 	[Name] [nvarchar](max) NOT NULL)
 GO
 

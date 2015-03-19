@@ -1,8 +1,9 @@
 
 CREATE TABLE [Security].[Invitations](
-	[Id] [int] NOT NULL,
+	[Id] [int] IDENTITY(1,1)  NOT NULL,
 	[FromUserId] [int] NULL,
-	[ToEmail] [nvarchar](50) NULL)
+	[ToEmail] [nvarchar](50) NULL,
+	[SecurityHash] [nvarchar](50) NULL)
 
 
 GO
@@ -12,4 +13,5 @@ ADD CONSTRAINT [PK_Security.Invitations] PRIMARY KEY CLUSTERED
 	[Id] ASC
 )
 GO
-
+AUTOPROC Insert,Select,Update,Delete [Security].[Invitations]
+GO

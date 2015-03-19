@@ -1,6 +1,6 @@
 
 CREATE TABLE [Security].[Transactions](
-	[Id] [int] NOT NULL,
+	[Id] [int] IDENTITY(1,1)  NOT NULL,
 	[AccountId] [int] NULL,
 	[Amount] [nvarchar](50) NULL,
 	[AbsAmount] [nvarchar](50) NULL,
@@ -34,4 +34,4 @@ GO
 
 ALTER TABLE [Security].[Transactions] CHECK CONSTRAINT [FK_Transactions_Categories]
 GO
-
+AUTOPROC Insert,Select,Update,Delete [Security].[Transactions]

@@ -1,9 +1,11 @@
 
 CREATE TABLE [Security].[BudgetItems](
-	[Id] [int] NOT NULL,
-	[Household] uniqueidentifier default NEWID() NOT NULL,
+	[Id] [int] IDENTITY(1,1)  NOT NULL,
+	[Household] uniqueidentifier NOT NULL,
 	[CategoryId] [int] NULL,
-	[Amount] [nvarchar](50) NULL)
+	[Amount] [nvarchar](50) NULL,
+	[AnnualFrequency] [int] NULL)
+
 
 GO
 ALTER TABLE [Security].[BudgetItems]
@@ -18,5 +20,7 @@ REFERENCES [Security].[Categories] ([Id])
 GO
 
 ALTER TABLE [Security].[BudgetItems] CHECK CONSTRAINT [FK_BudgetItems_Categories]
+GO
+AUTOPROC Insert,Select,Update,Delete [Security].[BudgetItems]
 GO
 

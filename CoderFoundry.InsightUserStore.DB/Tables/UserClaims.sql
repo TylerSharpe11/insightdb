@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [Security].[UserClaims](
-	[Id] INT IDENTITY NOT NULL,
+	[Id] INT IDENTITY(1,1) NOT NULL,
 	[UserId] int NOT NULL,
 	[ClaimType] nvarchar(max) NOT NULL,
 	[ClaimValue] nvarchar(max) NOT NULL
